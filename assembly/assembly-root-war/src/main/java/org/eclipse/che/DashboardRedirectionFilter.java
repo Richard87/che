@@ -30,7 +30,7 @@ import javax.servlet.http.HttpServletResponse;
  */
 @Singleton
 public class DashboardRedirectionFilter implements Filter {
-  private static Pattern projectPattern = Pattern.compile("^/(_app|[^/]+?)/.+");
+  private static Pattern projectPattern = Pattern.compile("^/.+/.+$");
 
   @Override
   public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain)
