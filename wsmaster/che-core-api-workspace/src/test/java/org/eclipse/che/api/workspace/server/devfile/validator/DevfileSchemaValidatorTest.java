@@ -48,7 +48,7 @@ public class DevfileSchemaValidatorTest {
     return new Object[][] {
       {"editor_plugin_component/devfile_editor_plugins.yaml"},
       {"editor_plugin_component/devfile_editor_component_with_custom_registry.yaml"},
-      {"editor_plugin_component/devfile_editor_plugins_components_with_memory_limit.yaml"},
+      {"editor_plugin_component/devfile_editor_plugins_components_with_resource_limits.yaml"},
       {"editor_plugin_component/devfile_plugin_components_with_preferences.yaml"},
       {"kubernetes_openshift_component/devfile_kubernetes_component_reference.yaml"},
       {"kubernetes_openshift_component/devfile_kubernetes_component_absolute_reference.yaml"},
@@ -69,7 +69,7 @@ public class DevfileSchemaValidatorTest {
       {"dockerimage_component/devfile_dockerimage_component.yaml"},
       {"dockerimage_component/devfile_dockerimage_component_without_entry_point.yaml"},
       {"editor_plugin_component/devfile_editor_component_with_custom_registry.yaml"},
-      {"editor_plugin_component/devfile_editor_plugins_components_with_memory_limit.yaml"},
+      {"editor_plugin_component/devfile_editor_plugins_components_with_resource_limits.yaml"},
       {"editor_plugin_component/devfile_plugin_component_with_reference.yaml"},
       {"devfile/devfile_just_generatename.yaml"},
       {"devfile/devfile_name_and_generatename.yaml"},
